@@ -1,0 +1,113 @@
+Asm asm Se utiliza para incluir directamente codigo ensamblador en su programa C++. El uso correcto de asm depende de la implementacion.
+
+Auto auto Es un especificador de almacenamiento de clases para variables temporales. Estas variables se crean al introducirse en un bloque de sentencias y se destruyen al salir de el. Las variables locales de una función tienen clase de almacenamiento auto por defecto (omisión).
+
+Bool bool Tipo logico (boolean) que toma valores verdadero (true) o falso (false) que puede contener los literales true y false. Sustituye al sistema tradicional de C que considera el valor cero como falso y distinto de cero como verdadero.
+
+Break rotura break permite salir del bucle do, while o for más interno. Tambien se puede utilizar para salir de una sentencia switch.
+
+Case caso Sirve para etiquetar los diferentes casos de la sentencia switch.
+
+Catch captura Se utiliza como mecanismo de tratamiento de excepciones. Su proposito es interceptar una excepcion generada por throw. Dado su caracter experimental, no esta implementada en algunos compiladores.
+
+Char carbonizarse Tipo de dato incorporado en C++. Se puede utilizar char para declarar variables carácter (tienen un rango de 0 a 255 en código ASCII).
+
+Class clase Palabra que representa la definicion de una clase. Una clase contiene variables miembros datos y funciones miembro que operan sobre esas variables; asimismo, una clase tiene un conjunto de especificadores que controlan el acceso a los miembros de la clase (private, public y protected)
+
+Const_cast const_cast El operador const_cast<T>(e) permite acceder a un objeto con el atributo const o volatile adjuntado. El tipo T debe ser del mismo tipo que el operando e excepto para los modificadores const y volatile y el resultado devuelto por const_cast() es el mismo que e pero de tipo T.
+
+Continue seguir Se utiliza continue en la ejecución de un bucle. Es equivalente a ejecutar una sentencia goto al final del bucle. Esta sentencia afecta al bucle más interno en el que aparece.
+
+Default defecto Se utiliza en la sentencia switch para marcar el código que se ejecutará cuando ninguna de las etiquetas de case se corresponde con la expresión switch.
+
+True cierto Con el fin de facilitar la escritura y razonamientos de programas se admite el uso de variables bipolares o que solo admiten dos valores: verdadero (true) o falso (false).+
+
+Try  tratar Try se utiliza cuando se desean prever excepciones en el transcurso de la ejecucion de un programa. Es necesario ya que ahí se colocan las instrucciones que se desean realizar pese a la excepcion, posteriormente se usa un catch donde se especifica la excepción que se sabe puede ocurrir.
+
+Typedef transcribir a maquina typedef es una palabra reservada en el lenguaje de programacion C y C++. Su funcion es asignar un nombre alternativo a tipos existentes, a menudo cuando su declaracion normal es aparatosa, potencialmente confusa o probablemente variable de una implementacion a otra.
+
+Typeid Consulta información de un tipo Se utiliza cuando se debe conocer el tipo dinamico de un objeto polimorfico y para la identificacion del tipo estatico.
+
+Typename escriba un nombre Se utiliza para especificar que un nombre dependiente en una definición o declaración de plantilla es un tipo
+
+Union union Una unión es un tipo de clase especial que solo puede contener uno de sus miembros de datos no estáticos a la vez.
+
+Unsigned no firmado La unsignedpalabra clave es un especificador de tipo de datos, que hace que una variable solo represente numeros naturales (numeros positivos y cero). Se puede aplicar unicamente a las char, short, inty longtipos. Por ejemplo, si an intnormalmente tiene valores de -32768 a 32767, an unsigned inttendra valores de 0 a 65535. Puede usar este especificador cuando sepa que su variable nunca necesitará ser negativa
+
+Using utilizandod irectivas de uso para espacios de nombres y declaraciones de uso para miembros del espacio de nombres. Declaraciones de uso para miembros de la clase
+
+virtual virtual es una función cuyo comportamiento, al ser declarado "virtual", es determinado por la definicion de una función con la misma cabecera en alguna de sus subclases. Este concepto es una parte muy importante del polimorfismo en la POO.
+
+Void vacio Cuando se usa como un tipo de retorno de funcion, la voidpalabra clave especifica que la funcion no devuelve un valor. Cuando se usa para la lista de parámetros de una funcion, voidespecifica que la funcion no toma parametros. Cuando se utiliza en la declaracion de un puntero, voidespecifica que el puntero es "universal".
+
+Volatile volatil Un calificador de tipo que puede usar para declarar que el hardware puede modificar un objeto en el programa.
+
+While mientras una estructura ciclica, que nos permite ejecutar una o varias lineas de codigo de manera repetitiva sin necesidad de tener un valor inicial e incluso a veces sin siquiera conocer cuando se va a dar el valor final que esperamos
+
+reinterpret_cast reinterpretar reparto Se usa para eliminar o añadir los modificadores const y volatile de una expresión.
+
+Return Regreso Una instrucción return termina la ejecución de una función y devuelve el control a la función de llamada.
+
+Short Corta Representa valores que pueden ser true o false.
+
+Signed Firmada El modificador de tipo signed define que el valor de una variable numérica puede ser positivo o negativo. 
+
+Sizeof Tamaño fuera sizeof es una palabra clave, es un operador de tiempo de compilación, que se utiliza para determinar la variable o el tipo de datos en bytes
+
+Static Estatico En el lenguaje de programación C se usa static con variables globales y funciones para restringir su ámbito al archivo donde se definen. 
+
+Static_cast  estatico emitir Este operador se usa en los casos en que el programador desea documentar las conversiones de tipo implícitas, con objeto de aclarar que realmente se desean hacer esas conversiones de tipo
+
+Struct estructura es una palabra reservada de C que indica que los elementos que vienen agrupados a continuación entre llaves componen una estructura. nombre_estructura
+
+Switch cambiar case es una estructura de control empleada en programación, se utiliza para agilizar la toma de decisiones múltiples, trabaja de la misma manera que lo harían sucesivos if, if else o until anidados
+
+Template modelo Una plantilla (template) es un patrón para crear funciones y  Clases Templates (clases parametrizadas)
+
+This esto El puntero this nos permite hacer cosas como obtener una referencia al propio objeto como valor de retorno en determinadas funciones u operadores.
+
+Thrown arrojada El throw se comporta como un return. Lo que sucede es lo siguiente: el valor devuelto por el throw se asigna al objeto del catch adecuado.
+
+Goto Ir El propósito de la instruccion es transferir el control a un punto determinado del codigo, donde debe continuar la ejecucion.
+
+If Si evalúa una condición, si es verdadera ejecuta un codigo, si es falsa, ejecuta otro codigo (o continua con la ejecucion del programa).
+
+Inline En línea Se conocen como funciones inline a las funciones que, al compilar, no son llamadas en el codigo objeto, sino insertadas en la seccion del codigo donde se las llame.
+
+Mutable Mudable que pueden ser modificados tras su creacion.
+
+Namespace Espacio de nombre Un namespace, no es mas que una forma de crear un bloque, y que todas las funciones que esten dentro del mismo, esten asociadas a ese namespace (o espacio de nombres), al cual se le asigna un nombre para identificarlo.
+
+New Nuevo La instruccion new implica que se producen dos acciones. Creacion de un objeto de un tipo definido por una clase. 
+
+Operator Operador Un operador de asignacion asigna un valor al operando de la izquierda basado en el valor del operando de la derecha.
+
+Private Privado El modificador de acceso privado especifica campos y métodos de una clase que no son accesible fuera de la unidad donde se declara la clase. public: El modificador de acceso publico denota campos y métodos que son de libre acceso desde cualquier otra parte de un programa.
+
+Protected Protegido Al contrario que las publicas, las variables/funciones privadas solo pueden ser accedidas desde dentro de la misma clase. Todo intento de llamarlas desde la una instancia de la misma es en vano. Mantener variables/funciones privadas permiten tener un mayor control sobre la clase, sobre el modo como procesa sus metodos, como maneja sus variables, etc. Para declarar una variable/funcion como privada, se le antepone la palabra clave “private”.
+
+Public Publico Una variable/función publica puede ser accedida desde fuera de la clase. Es decir, puedo acceder desde la instancia de la clase y no solo desde el codigo interno de la clase. Ejemplo de funciones publicas son los metodos de una clase. Tambien es posible crear variables publicas, para que puedan ser manejadas desde la instancia, pero no es algo comun o recomendable, entre otras cosas porque deja un hueco de seguridad en la clase, acabando con la idea de la “encapsulación”. Para declarar una variable/función como publica, se le antepone la palabra clave “public”.
+
+Register Registrarse La palabra clave register es un especificador de tipo de almacenamiento ("storage class specifier"); se utiliza para indicar al compilador que ciertas variables (normalmente del tipo int y char) deben ser almacenadas en los registros del procesador en lugar de la pila ( 1.3.2).
+
+Delete Eliminar El operador de asignación dinámica delete se utiliza para liberar la memoria apuntada por su argumento  (asignada utilizando new). 
+
+Do Hacer La instrucción do ejecuta una instrucción o un bloque de instrucciones mientras que una expresión booleana especificada se evalúa como true. Si la expresión se evalúa como true, la ejecución continúa en la primera instrucción del bucle.
+
+Double Doble Especificador de tipo de dato doublé que declara variables y arrays de coma flotante de doble precisión. 
+
+Dynamic_cast Reparto Dinámico Este operador se puede utilizar para moldear (convertir explícitamente) a un puntero o a un tipo referencia.
+
+Else Más Lo que hace es ejecutar una acción si el resultado de la evaluación de la expresión es verdadera y otra acción si el resultado de la evaluación es falsa.
+
+Enum Enumeración Tipo de datos de valor entero que puede tomar sus valores de una lista de constantes enumerados.
+
+Explicit Explicito Declara un constructor explícito.
+
+Extern Externo Especificador de clase de almacenamiento utilizado para indicar al compilador que una variable se declara en otra parte del programa. 
+
+False Falso Literal Boolean de valor cero. 
+
+Float Flotador Es un especificador de tipos de datos utilizados para declarar variables de coma flotante. Contienen un valor de mantisa y otro de exponente, que, para entendernos, codifican números con decimales.
+
+For Para El bucle for permite inicializar e incrementar variables contadores. 
